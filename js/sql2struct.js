@@ -239,7 +239,7 @@ function titleCase(str) {
 // 类型映射
 function getTypeMap() {
     return {
-        'tinyint': 'int64',
+        'tinyint': 'int8',
         'smallint': 'int64',
         'int': 'int64',
         'mediumint': 'int64',
